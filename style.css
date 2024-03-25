@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.texto-imagem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.quem-somos {
+    background-image: linear-gradient(yellow, black);
+    color:black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.estudantes {
+    background-color: black;
+    color: yellow;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.estudantes .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.estudantes .linha img {
+    max-width: 30%;
+    margin: 10px;
+}
+
+.rodape {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 20px 0;
+}
